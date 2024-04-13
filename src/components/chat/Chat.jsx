@@ -16,7 +16,6 @@ const Chat = () => {
     file: null,
     url: '',
   });
-  console.log(chat);
   const { currentUser } = useUserStore();
   const { chatId, user, isCurrentUserBlocked, isReceiverBlocked } = useChatStore();
 
